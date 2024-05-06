@@ -1,4 +1,6 @@
 import './App.css';
+import './styles/slick.css'
+import './styles/slick-theme.css'
 import Sidebar from './components/sidebar.js'
 import Body from './components/body.js'
 import Notice from './components/notice.js'

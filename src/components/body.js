@@ -14,6 +14,7 @@ import fifth from '../Assets/icons/5.png'
 import bulb from '../Assets/icons/bulb.png'
 import styles from '../styles/body.module.css'
 import Scrollbar from './Scrollbar.js'
+import Slider from './slider.js'
 import left from '../Assets/icons/left.png'
 import right from '../Assets/icons/right.png'
 import info from '../Assets/icons/info.png'
@@ -22,7 +23,8 @@ export default function body() {
   return (
     <div className={styles.container}>
       <div>
-        <Scrollbar />
+        {/* <Scrollbar /> */}
+        <Slider />
       </div>
       <div className={styles.bottomcontainer}>
 
