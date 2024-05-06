@@ -1,0 +1,124 @@
+.container{
+  width: 15%;
+  padding: 48px 2%;
+  border-right: 1px solid rgba(211, 219, 236, 1);
+}
+.topcontainer{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  height: 32px;
+  width: auto;
+}
+.notificationcontainer{
+  height: 36px;
+  width: 36px;
+  border: 1px solid rgba(211, 219, 236, 1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notification{
+  font-size: 20px;
+}
+.card{
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 5%;
+  background-color: rgba(231, 237, 252, 1);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.vert{
+  height: 12px;
+}
+.cardname{
+  font-size: 16px;
+color:rgba(45, 45, 45, 1);
+font-weight: 600;
+}
+.cardemail{
+  font-size: 14px;
+  color: rgba(93, 93, 93, 1);
+}
+.icons{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 5%;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+.active{
+  color: rgba(65, 85, 141, 1);
+  background-color: rgba(231, 237, 252, 1);
+  border: 1px solid rgba(65, 85, 141, 1);
+}
+.icontext{
+  font-size: 16px;
+}
+.iconimg{
+  height: 18px;
+}
+.topic{
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(110, 110, 110, 1);
+}
+.menu,.userprofile{
+  display: none;
+}
+.flexnotice{
+  display: none;
+}
+@media screen and (max-width: 720px){
+  .flexnotice{
+    display: flex;
+    padding: 16px 5%;
+    gap: 5%;
+    border: 1px solid rgba(211, 219, 236, 1);
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .container{
+    width: 100%;
+    padding: 10px 0;
+    background-color: white;
+  }
+  .notificationcontainer{
+    border: none;
+  }
+  .menu{
+    display: inline;
+    width: 24px;
+    height: 24px;
+  }
+  .userprofile{
+    display: inline;
+    height: 22px;
+    width: auto;
+  }
+  .logo{
+    height: 24px;
+  }
+  .logomenu{
+    display: flex;
+    align-items: center;
+    gap: 8%;
+  }
+  .logomenu1{
+    display: flex;
+    align-items: baseline;
+  }
+  .topcontainer{
+    padding:0px 3%;
+  }
+  .card{
+    display: none;
+  }
+  .btmcontainer{
+    display: none;
+  }
+}
